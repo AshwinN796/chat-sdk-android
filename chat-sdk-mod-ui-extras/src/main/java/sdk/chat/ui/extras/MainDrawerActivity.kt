@@ -43,6 +43,8 @@ import sdk.guru.common.RX
 
 open class MainDrawerActivity : MainActivity() {
 
+    //added comment for test
+
     override fun getLayout(): Int {
         return R.layout.activity_main_drawer
     }
