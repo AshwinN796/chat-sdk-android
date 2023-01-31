@@ -320,6 +320,12 @@ open class MainDrawerActivity : MainActivity() {
         }
     }
 
+    fun closeDrawerAgain() {
+        if (root.isDrawerOpen(slider)) {
+            root.closeDrawer(slider)
+        }
+    }
+
     fun toggleDrawer() {
         if (root.isDrawerOpen(slider)) {
             root.closeDrawer(slider)
